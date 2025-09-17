@@ -1,4 +1,4 @@
-from adc import ABC, abstractmethod
+from abc import ABC, abstractmethod
 
 class Animal(ABC):
     @abstractmethod

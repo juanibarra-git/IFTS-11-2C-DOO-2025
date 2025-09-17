@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Animal(Animal):
+class Animal(ABC):
     def __init__(self, name):
         self.name = name
         self.posicion = 0
